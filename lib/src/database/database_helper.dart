@@ -6,8 +6,8 @@ import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 
 class DatabaseHelper {
-  static final _databaseName = "pokemon.db";
-  static final _databaseVersion = 1;
+  static const _databaseName = "pokemon.db";
+  static const _databaseVersion = 1;
 
   // 单例模式
   DatabaseHelper._privateConstructor();
