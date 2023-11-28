@@ -5,8 +5,6 @@ class SettingsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: const Text('This is settings page.'),
-    );
+    return const Text('This is settings page.');
   }
 }

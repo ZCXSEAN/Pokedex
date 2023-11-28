@@ -5,6 +5,6 @@ class CategoryPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(child: const Text('This is category page.'),);
+    return const Text('This is category page.');
   }
 }
